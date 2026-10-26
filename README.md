@@ -28,7 +28,7 @@ The One-Class SVM outperformed both LSTM autoencoders in this experiment. At the
 
 ## Key Takeaway
 
-This experiment highlighted the importance of evaluating anomaly detection models beyond their reconstruction loss. Although the LSTM autoencoders learned to reconstruct the training sequences, their selected thresholds did not successfully classify the labelled anomalies. The One-Class SVM achieved a better balance between precision and recall in this experiment.
+This experiment highlighted the importance of evaluating anomaly detection models beyond their reconstruction loss. Although the LSTM autoencoders learned to reconstruct the training sequences, their selected thresholds did not successfully classify the labelled anomalies, as the recosnstructon errors in non-anomalous areas were muhc higher. The One-Class SVM achieved a better balance between precision and recall in this experiment.
 
 ## Technologies
 
